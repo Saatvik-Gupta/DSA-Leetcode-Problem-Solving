@@ -6,8 +6,6 @@ public:
     void getcombo(vector<int>& arr,vector<int>& combo,vector<vector<int>>& ans,int target,int i){
 
         int n=arr.size();
-        
-        if(target<0 || i==n) return;
 
         if(target==0){
 
@@ -17,6 +15,8 @@ public:
         }
         return;
         }
+
+        if(target<0 || i==n) return;
 
         combo.push_back(arr[i]); // inclusion 
 
