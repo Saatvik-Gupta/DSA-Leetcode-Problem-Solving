@@ -7,6 +7,8 @@ public:
 
         int n=arr.size();
 
+        if(target<0 || i==n) return;
+
         if(target==0){
 
             if(s.find(combo)==s.end()){
@@ -16,7 +18,6 @@ public:
         return;
         }
 
-        if(target<0 || i==n) return;
 
         combo.push_back(arr[i]); // inclusion 
 
