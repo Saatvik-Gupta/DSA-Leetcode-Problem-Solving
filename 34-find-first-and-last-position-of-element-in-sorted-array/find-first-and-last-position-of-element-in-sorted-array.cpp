@@ -29,7 +29,7 @@ public:
 
             if (nums[mid] == target) {
                 ans[1] = mid;
-                start = mid + 1; // gain check for target for its last occurance
+                start = mid + 1; // again check for target for its last occurance
             }
             else if (nums[mid] < target)
                 start = mid + 1;
