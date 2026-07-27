@@ -8,8 +8,8 @@ public:
         for(int i=0;i<n;i++){
 
             for(int j=i+1;j<n;j++){
-                int cal=(nums[i]-1)*(nums[j]-1);
-                pro=max(pro,cal);
+                
+                pro=max(pro, (nums[i]-1)*(nums[j]-1));
             }
         }
 
