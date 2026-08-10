@@ -2,16 +2,6 @@ class Solution {
 public:
     vector<vector<int>> shiftGrid(vector<vector<int>>& grid, int k) {
 
-    /* Convert (row, col) → 1D index
-    oldIndex = row * n + col;
-
-    Shift by k
-    newIndex = (oldIndex + k) % (m * n);
-
-    Convert 1D index → (row, col)
-    newRow = newIndex / n;
-    newCol = newIndex % n; */
-
     int m = grid.size();
     int n = grid[0].size();
 
