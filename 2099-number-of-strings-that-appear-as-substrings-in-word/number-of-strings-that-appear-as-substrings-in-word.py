@@ -6,7 +6,6 @@ class Solution:
 
             if(patterns[i] in word):
                 count=count+1
-                continue
         
         return count
         
