@@ -3,7 +3,7 @@ public:
     int missingMultiple(vector<int>& nums, int k) {
         int ans = k;
 
-        while (true) {
+        while (1) {
             bool found = false;
 
             for (int x : nums) {
