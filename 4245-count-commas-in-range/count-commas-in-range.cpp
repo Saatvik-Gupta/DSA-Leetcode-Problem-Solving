@@ -2,24 +2,26 @@ class Solution {
 public:
     long long countCommas(int n) {
 
-        long long ans = 0;
+    //     long long ans = 0;
 
-        long long start = 1000;
-        long long commas = 1;
+    //     long long start = 1000;
+    //     long long commas = 1;
 
-        while (start <= n) {
+    //     while (start <= n) {
 
-            long long end = start * 1000 - 1;
+    //         long long end = start * 1000 - 1;
 
-            if (end > n)
-                end = n;
+    //         if (end > n)
+    //             end = n;
 
-            ans += (end - start + 1) * commas;
+    //         ans += (end - start + 1) * commas;
 
-            start *= 1000;
-            commas++;
-        }
+    //         start *= 1000;
+    //         commas++;
+    //     }
 
-        return ans;
-    }
+    //     return ans;
+
+    return max(n-999,0);
+     }
 };
