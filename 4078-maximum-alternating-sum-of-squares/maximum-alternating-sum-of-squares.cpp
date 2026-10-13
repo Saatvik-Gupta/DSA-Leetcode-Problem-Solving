@@ -13,7 +13,7 @@ public:
         long long score = 0;
 
         for (int i = 0; i < n; i++) {
-            if (i < n / 2)
+            if (i <n/2)
                 score -= squares[i];
             else
                 score += squares[i];
